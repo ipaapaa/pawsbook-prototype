@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffd881;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #efeced;
+  height: 100%;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.navbar {
+  background-color: #403027;
+  color: #efeced;
+
+  width: 100%;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  margin-right: 2em;
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0.6em;
+  color: #efeced;
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  color: #efeced;
+  text-shadow: #361706 2px 2px;
+}
+
+.navbar ul li a:hover {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #d7ccabe9;
+  text-shadow: #361706 2px 2px;
+}
+
+.logo {
+  margin-left: 0.9em;
+  font-weight: 900;
+  font-size: 2.4rem;
+  text-shadow: #361706 3px 4px;
+}
+
+.signup .container {
+  width: 60vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #361706;
+  border-radius: 10px;
+  padding-top: 1.5em;
+}
+
+.signup .container .signup-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2vh;
+  color: #403027;
+}
+
+.signup .container .signup-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.signup .container .signup-header p {
+  font-size: 1.2rem;
+}
+
+hr {
+  border: 1.4px solid #361706;
+}
+
+.name {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  margin-bottom: -0.5em;
+}
+
+#fname {
+  width: 47%;
+  height: 2.5em;
+  border: 1px solid #403027;
+  padding-left: 0.5em;
+  border-radius: 7px;
+}
+#lname {
+  width: 47%;
+  height: 2.5em;
+  border: 1px solid #403027;
+  padding-left: 0.5em;
+  border-radius: 7px;
+}
+
+.email {
+  display: flex;
+  justify-content: space-around;
+}
+
+#email {
+  width: 97%;
+  height: 2.5em;
+  border: 1px solid #403027;
+  padding-left: 0.5em;
+  border-radius: 7px;
+  margin-top: 0;
+}

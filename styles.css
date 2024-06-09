@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffd881;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #efeced;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.navbar {
+  background-color: #403027;
+  color: #efeced;
+
+  width: 100%;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-left: 0.9em;
+  font-weight: 900;
+  font-size: 2.4rem;
+  text-shadow: #361706 3px 4px;
+}
+
+.navbar ul {
+  margin-right: 2em;
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0.6em;
+  color: #efeced;
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  color: #efeced;
+  text-shadow: #361706 2px 2px;
+}
+
+.navbar ul li a:hover {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #d7ccabe9;
+  text-shadow: #361706 2px 2px;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 25em;
+  flex-direction: row-reverse;
+}
+
+.hero .container .logo {
+  height: 150px;
+  margin: auto 3em auto 0;
+}
+
+.hero .container .tagline {
+  margin: auto 3em;
+  color: #361706;
+}
+
+.hero .container .tagline h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #361706;
+}
+
+.hero .container .tagline p {
+  font-size: 1.3rem;
+  margin-top: 1.2em;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #361706;
+  margin: 1em 0;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features .container .item {
+  background-color: #361706;
+  margin: 1.2em;
+  width: 30%;
+  height: 170px;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: #997852 5px 5px;
+  text-align: center;
+}
+
+.features .container .item h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.9em;
+  text-shadow: -1.4px 0 black, 0 1.4px black, 1.4px 0 black, 0 -1.4px black;
+}
+
+.features .container .item p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.9em;
+}

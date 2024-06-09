@@ -58,46 +58,64 @@
               />
             </div>
             <br />
-            <input
-              type="tel"
-              id="telno"
-              name="telno"
-              required
-              placeholder="Phone Number: 09XX-XXX-XXXX"
-              pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
-            />
+            <div class="telno">
+              <input
+                type="tel"
+                id="telno"
+                name="telno"
+                required
+                placeholder="Phone Number: 09XX-XXX-XXXX"
+                pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
+              />
+            </div>
             <br />
-            <input
-              type="password"
-              name="password"
-              id="password"
-              required
-              placeholder="Password"
-            />
-            <input
-              type="password"
-              name="re-password"
-              id="re-password"
-              required
-              placeholder="Re-enter Password"
-            />
+            <div class="password">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                placeholder="Password"
+              />
+              <input
+                type="password"
+                name="re-password"
+                id="re-password"
+                required
+                placeholder="Re-enter Password"
+              />
+            </div>
             <br />
-            <label for="birthday">Birthday: </label>
-            <input type="date" name="birthday" id="birthday" required />
+            <label for="birthday" class="birthday-label">Birthday: </label>
+            <div class="birthday">
+              <input type="date" name="birthday" id="birthday" required />
+            </div>
             <br />
-            Gender:
-            <input type="radio" id="male" name="gender" value="male" required />
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="female">Female</label>
-            <input type="radio" id="other" name="gender" value="other" />
-            <label for="other">Other</label>
+            <div class="gender">
+              Gender:
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                required
+              />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Other</label>
+            </div>
             <br />
-            <input type="submit" value="Sign Up" />
+            <div class="submitbutton">
+              <input type="submit" value="Sign Up" id="submit" />
+            </div>
           </form>
         </div>
 
-        <a href="#">Already have an account?</a>
+        <div class="accexists">
+          <a href="#" id="accexists">Already have an account?</a>
+        </div>
       </div>
     </section>
   </body>

@@ -71,7 +71,7 @@ body {
 
 .signup .container {
   width: 60vw;
-  height: 70vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   border: 2px solid #361706;
@@ -94,6 +94,10 @@ body {
 
 .signup .container .signup-header p {
   font-size: 1.2rem;
+}
+
+.signup .container .forms {
+  padding: 1em;
 }
 
 hr {
@@ -134,4 +138,113 @@ hr {
   padding-left: 0.5em;
   border-radius: 7px;
   margin-top: 0;
+}
+
+.telno {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -0.5em;
+}
+
+#telno {
+  width: 97%;
+  height: 2.5em;
+  border: 1px solid #403027;
+  padding-left: 0.5em;
+  border-radius: 7px;
+  margin-top: 0;
+}
+
+.password {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+}
+
+#password {
+  width: 47%;
+  height: 2.5em;
+  border: 1px solid #403027;
+  padding-left: 0.5em;
+  border-radius: 7px;
+}
+
+#re-password {
+  width: 47%;
+  height: 2.5em;
+  border: 1px solid #403027;
+  padding-left: 0.5em;
+  border-radius: 7px;
+}
+
+.birthday-label {
+  margin-left: 9.5px;
+  color: #361706;
+  font-weight: 500;
+}
+.birthday {
+  display: flex;
+  justify-content: space-around;
+  margin-top: em;
+  flex-direction: column;
+  align-items: center;
+}
+
+#birthday {
+  width: 97%;
+  height: 2.5em;
+  border: 1px solid #403027;
+  padding-left: 0.5em;
+  border-radius: 7px;
+}
+
+.gender {
+  color: #361706;
+  font-weight: 500;
+  margin-left: 9.5px;
+}
+
+.submitbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: -1em;
+}
+
+#submit {
+  height: 50px;
+  width: 30%;
+  background-color: #361706;
+  box-shadow: #403027 -3px -3px 3px, #403027 3px 3px 3px;
+
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+#submit:hover {
+  background-color: #403027;
+  color: #efeced;
+}
+
+.accexists {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+#accexists {
+  text-decoration: underline;
+  color: #361706;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+#accexists:hover {
+  color: #403027;
 }
